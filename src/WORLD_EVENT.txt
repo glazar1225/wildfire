@@ -1,0 +1,8 @@
+We decided to make a wildfire that starts with a singular tile
+on fire where the mouse is clicked. As time goes on, the fire spreads to
+other points and effects at most 7 tiles. If dude comes into contact with the fire,
+it transforms into DudeOnFire which is dude with fire on him. This DudeOnFire goes to the
+nearest water which is class obstacle. Once DudeOnFire gets to the water, it transforms back to
+DudeFull which means it goes back to the house. One exception is that if the entity clicked is dude,
+instead of starting a fire it just makes that Dude to transform to DudeOnFire. Lastly, once the
+dude is on fire, it avoids the fire to get to the water.
